@@ -1,0 +1,130 @@
+/* Container Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cbcecb;
+  padding: 20px;
+}
+
+.login-card {
+  background: linear-gradient(135deg, #ffffff, #f2f9f4);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+/* Form Styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4ea177;
+  background-color: #fff;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #4ea177;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4b9259;
+}
+
+.login-social {
+  margin-top: 30px;
+}
+
+.social-title {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #777;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn-social:hover {
+  transform: translateY(-4px);
+}
+
+.btn-google {
+  background-color: #db4437;
+  color: #fff;
+}
+
+.btn-google:hover {
+  background-color: #c1351d;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-facebook:hover {
+  background-color: #2d4373;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.btn-linkedin:hover {
+  background-color: #005582;
+}
